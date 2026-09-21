@@ -7,12 +7,12 @@ namespace Ucu.Poo.Repositories.Tests
     [TestFixture]
     public class MoviesCatalogTests
     {
-        private MoviesCatalog catalog;
+        private Repository<Movie> catalog;
 
         [SetUp]
         public void SetUp()
         {
-            this.catalog = new MoviesCatalog();
+            this.catalog = new Repository<Movie>();
         }
 
         [Test]
